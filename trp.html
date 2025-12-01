@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OX1</title>
+    <script src="translate.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- <div id="loader">
+        <img src="loding.png" alt="لودینگ" class="loading-image">
+    </div> -->
+
+
+
+    <a href="index.html" class="a11" id="a1">
+
+        <h4 data-translate="h.b1">
+            back
+        </h4>
+
+    </a>
+
+    <div class="all" id="all">
+
+        <button onclick="selectAndGo('en')" class="t13">English</button>
+        <button onclick="selectAndGo('fa')" class="t13">فارسی</button>
+        <button onclick="selectAndGo('de')" class="t13">Deutsch</button>
+        <button onclick="selectAndGo('fr')" class="t13">Français</button>
+        <button onclick="selectAndGo('ru')" class="t13">Russian</button>
+        <button onclick="selectAndGo('cn')" class="t13">Chinese</button>
+        <button onclick="selectAndGo('jp')" class="t13">Japanese</button>
+        <button onclick="selectAndGo('es')" class="t13">Español</button>
+
+
+        <button onclick="selectAndGo('ar')" class="t13">عربی</button>
+
+    </div>
+
+    <script src="app.js"></script>
+
+    <script>
+        // تابع در سطح global (window) قرار می‌گیره
+        function selectAndGo(lang) {
+            // setLanguage باید از translate.js موجود باشه
+            if (typeof setLanguage === 'function') {
+                setLanguage(lang);
+            } else {
+                console.warn('setLanguage not defined yet; saving to localStorage instead.');
+                localStorage.setItem('lang', lang);
+            }
+            // برگشت به صفحه اصلی (یا هر صفحه‌ای که می‌خوای)
+            window.location.href = 'index.html';
+        }
+        // تضمین اینکه قابل دسترس باشه
+        window.selectAndGo = selectAndGo;
+    </script>
+
+
+</body>
+
+</html>
