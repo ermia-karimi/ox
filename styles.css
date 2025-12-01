@@ -27,9 +27,9 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     body {
-        background-image: url("16.png");
+        background-image: url("17.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
