@@ -27,6 +27,16 @@ body {
 
 }
 
+@media (max-width: 768px) {
+    body {
+        background-image: url("16.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
 
 body.rtl {
     direction: rtl;
