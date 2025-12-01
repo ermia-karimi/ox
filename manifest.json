@@ -1,0 +1,14 @@
+{
+    "name": "ox1",
+    "short_name": "ox1",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4A90E2",
+    "icons": [
+        {
+            "src": "loding.png",
+            "type": "image/png"
+        }
+    ]
+}
