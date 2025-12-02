@@ -164,36 +164,31 @@ body.rtl .hero-text {
 
 
 
+
+
+
 .all1 {
 
     display: grid;
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
-    gap: 50vw;
+    gap: 1px;
     /* background: #000000; */
     position: relative;
-    width: clamp(1vw, 90%, 100vw);
-    /* height: clamp(1vh, 210px, 1000vh); */
+    /* width: clamp(1vw, 90%, 100vw); */
+    height: clamp(1vh, 350px, 1000vh);
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
     padding: 25px;
     border-radius: 10px;
     /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
     /* font-family: sans-serif; */
     /* font-family: v; */
-
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1.5);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    
     margin-top: 60px;
-    margin-bottom: 160px;
+    margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 8%;
-    padding-right: 8%;
+    padding-right: 5%;
     /* overflow-x: hidden; */
     /* overflow-y: auto; */
 
