@@ -169,7 +169,7 @@ body.rtl .hero-text {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
-    gap: 90%;
+    gap: 70vw;
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
@@ -205,7 +205,7 @@ body.rtl .hero-text {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 0.1fr);
-    gap: 90%;
+    gap: 70vw;
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
