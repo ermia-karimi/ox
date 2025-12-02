@@ -38,7 +38,7 @@ body::before {
   left: 50%;
   width: 130vw;
   height: 130vh;
-  background: url("18.png") center/cover no-repeat;
+  background: url("19.png") center/cover no-repeat;
   z-index: -1;
   transform-origin: center;
   transform: translate(-50%, -50%);
