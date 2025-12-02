@@ -209,7 +209,7 @@ body.rtl .hero-text {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 48vw; 
+    gap: 50vw; 
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
@@ -265,8 +265,8 @@ body.rtl .hero-text {
 
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     /* padding-left: 8%; */
     /* padding-right: 5%; */
     /* overflow-x: hidden; */
