@@ -44,7 +44,8 @@ body::before {
     width: 130vw;
     height: 130vh;
     /*background: url("18.png") center/cover no-repeat;*/
-    background: linear-gradient(to bottom, #7A8B9C, #A0B5B8, #ECECEC);
+    background: linear-gradient(to bottom, #2F5E63, #4C8484, #6A8C99);
+
 
     /*background-color: rgba(0, 0, 0, 0.35);*/
     /*background-blend-mode: darken;*/
