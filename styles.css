@@ -199,12 +199,12 @@ body.rtl .hero-text {
 
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 85vw;
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 65vw;
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
-    /* height: clamp(1vh, 10px, 1000vh); */
+    height: clamp(1vh, 10px, 1000vh);
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
     padding: 25px;
     border-radius: 10px;
@@ -214,11 +214,10 @@ body.rtl .hero-text {
 
     margin-top: 60px;
     margin-bottom: 60px;
-    /* margin-left: 10px; */
-    margin-right: 100px;
-    /* padding-left: 8%; */
-    /* padding-right: 8%; */
-
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 8%;
+    padding-right: 5%;
 
     /* overflow-x: hidden; */
     /* overflow-y: auto; */
