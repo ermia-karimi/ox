@@ -106,12 +106,12 @@ body.rtl .hero-text {
 } */
 
 
-.bg {
+/* .bg {
   position: fixed;
   top: 0;
   left: 0;
   right: 0 ;
-  width: 120vw;   /* عمداً بزرگ‌تر از صفحه */
+  width: 120vw;   
   height: 120vh;
   inset: 0;
   background-image: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png');
@@ -125,7 +125,7 @@ body.rtl .hero-text {
   .bg {
     transform: scale(0.8);
   }
-}
+} */
 
 
 
