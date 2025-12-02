@@ -46,8 +46,8 @@ body::before {
   background: url("20.png") center/cover no-repeat;
   /*background-color: rgba(0, 0, 0, 0.35);*/
   /*background-blend-mode: darken;*/
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter:blur(15px) ;
+  /*background-color: rgba(0, 0, 0, 0.4);*/
+  filter:blur(15px) ;
   /*filter: brightness(0.9);*/
   z-index: -1;
   transform-origin: center;
