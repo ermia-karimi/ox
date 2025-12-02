@@ -172,8 +172,8 @@ body.rtl .hero-text {
     gap: 50vw;
     /* background: #000000; */
     position: relative;
-    /* width: clamp(1vw, 90%, 100vw); */
-    height: clamp(1vh, 210px, 1000vh);
+    width: clamp(1vw, 90%, 100vw);
+    /* height: clamp(1vh, 210px, 1000vh); */
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
     padding: 25px;
     border-radius: 10px;
