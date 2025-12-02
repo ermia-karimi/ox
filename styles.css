@@ -46,11 +46,11 @@ body::before {
     height: 130vh;
 
 
-    /*background: url("18.png") center/cover no-repeat;*/
+    background: url("20.png") center/cover no-repeat;
 
 
 
-    background: linear-gradient(to bottom, #1F4E55, #457A75, #688C84);
+    /* background: linear-gradient(to bottom, #1F4E55, #457A75, #688C84); */
 
 
 
@@ -64,7 +64,7 @@ body::before {
 
 
 
-    filter: blur(45px);
+    filter: blur(10px);
 
 
     /*filter: brightness(0.9);*/
@@ -73,11 +73,6 @@ body::before {
     z-index: -1;
     transform-origin: center;
     transform: translate(-50%, -50%);
-
-    backdrop-filter: blur(300px);
-    -webkit-backdrop-filter: blur(300px);
-    /* background: rgba(255, 255, 255, 0.1); */
-    z-index: -1;
 
 
 }
