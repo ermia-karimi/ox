@@ -324,7 +324,7 @@ body.rtl .hero-text {
     color: #fff; */
 
     position: relative;
-    /* width: 90%; */
+    width: 90%;
     /* height: clamp(1vh, 40px, 1000vh); */
     padding: 25px;
     border-radius: 10px;
@@ -1101,7 +1101,7 @@ body.rtl .hero-text {
     align-items: center;
     /* background: #000000; */
     position: relative;
-    /* width: 90%; */
+    width: 90%;
     /* height: clamp(1vh, 40px, 1000vh); */
     padding: 25px;
     border-radius: 10px;
@@ -1123,6 +1123,7 @@ body.rtl .hero-text {
 .m1 {
 
     display: flex;
+    width: 90%;
     /* background: #000000; */
     font-family: sans-serif;
     font-family: v;
