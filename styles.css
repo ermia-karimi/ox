@@ -95,7 +95,7 @@ body.rtl .hero-text {
   right: 0 ;
   width: 120vw;   /* عمداً بزرگ‌تر از صفحه */
   height: 120vh;
-  /* inset: 0; */
+  inset: 0;
   background-image: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png');
   background-size: cover;
   background-position: center;
