@@ -25,7 +25,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 
-    z-index: 0;
+    /* z-index: 0; */
     
     /* font-family: v; */
 
