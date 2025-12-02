@@ -221,7 +221,7 @@ body.rtl .hero-text {
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
-    width: 10px ;
+    width: 100px ;
 
     /* height: clamp(1vh, 10px, 1000vh); */
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
