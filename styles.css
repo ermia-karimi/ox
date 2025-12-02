@@ -209,10 +209,11 @@ body.rtl .hero-text {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 45vw; 
+    gap: 48vw; 
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
+    width: 10px ;
 
     /* height: clamp(1vh, 10px, 1000vh); */
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
