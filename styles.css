@@ -21,6 +21,7 @@ body {
     background-attachment: fixed; */
 
     /* background: #000000; */
+    /* background: linear-gradient(to bottom, #2c595e, #417272, #567b89); */
     font-family: sans-serif;
     font-weight: 500;
     overflow-x: hidden;
@@ -43,18 +44,42 @@ body::before {
     left: 50%;
     width: 130vw;
     height: 130vh;
+
+
     /*background: url("18.png") center/cover no-repeat;*/
-    background: linear-gradient(to bottom, #2F5E63, #4C8484, #6A8C99);
+
+
+
+    background: linear-gradient(to bottom, #1F4E55, #457A75, #688C84);
+
+
+
+
+
 
 
     /*background-color: rgba(0, 0, 0, 0.35);*/
     /*background-blend-mode: darken;*/
     /*background-color: rgba(0, 0, 0, 0.4);*/
+
+
+
     filter: blur(45px);
+
+
     /*filter: brightness(0.9);*/
+
+
     z-index: -1;
     transform-origin: center;
     transform: translate(-50%, -50%);
+
+    backdrop-filter: blur(300px);
+    -webkit-backdrop-filter: blur(300px);
+    /* background: rgba(255, 255, 255, 0.1); */
+    z-index: -1;
+
+
 }
 
 
@@ -287,8 +312,8 @@ body.rtl .hero-text {
     text-decoration: none;
     color: #000000;
 
-    backdrop-filter: blur(35px);
-    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     color: white;
