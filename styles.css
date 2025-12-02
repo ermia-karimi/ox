@@ -36,8 +36,8 @@ body::before {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 90vw;
-  height: 90vh;
+  width: 130vw;
+  height: 130vh;
   background: url("20.png") center/cover no-repeat;
   z-index: -1;
   transform-origin: center;
@@ -183,6 +183,15 @@ body.rtl .hero-text {
     /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
     /* font-family: sans-serif; */
     /* font-family: v; */
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 10px;
