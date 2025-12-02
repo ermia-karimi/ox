@@ -24,6 +24,9 @@ body {
     font-weight: 500;
     overflow-x: hidden;
     overflow-y: auto;
+
+    z-index: 0;
+    
     /* font-family: v; */
 
 }
@@ -34,7 +37,8 @@ body::before {
   inset: 0;
   width: 130vw;   /* عمداً خیلی بزرگ‌تر */
   height: 130vh;
-  background: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png') center/cover no-repeat;
+  background-image: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png') center/cover no-repeat;
+  background: rgba(0,0,0,0.5);
   z-index: -1;
   transform-origin: center;
 }
