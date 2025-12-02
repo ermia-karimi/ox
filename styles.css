@@ -173,7 +173,7 @@ body.rtl .hero-text {
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
-    /* height: clamp(1vh, 550px, 1000vh); */
+    height: clamp(1vh, 550px, 1000vh);
     /* در صورت بهم خوردن ریسپانسیو کامند شود  */
     padding: 25px;
     border-radius: 10px;
@@ -221,8 +221,8 @@ body.rtl .hero-text {
     margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 
     /* overflow-x: hidden; */
