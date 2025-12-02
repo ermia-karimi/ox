@@ -205,7 +205,7 @@ body.rtl .hero-text {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 65vw;
+    gap: 85vw;
     /* background: #000000; */
     position: relative;
     /* width: clamp(1vw, 90%, 100vw); */
