@@ -28,6 +28,24 @@ body {
 
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  width: 130vw;   /* عمداً خیلی بزرگ‌تر */
+  height: 130vh;
+  background: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png') center/cover no-repeat;
+  z-index: -1;
+  transform-origin: center;
+}
+
+@media (max-width: 1200px) {
+  body::before {
+    transform: scale(0.8);
+  }
+}
+
+
 /* @media (max-width: 1000px) {
     body {
         background-image: url("17.png");
