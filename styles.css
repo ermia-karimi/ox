@@ -425,7 +425,6 @@ body.rtl .hero-text {
     width: 75%;
     /* height: clamp(1vh, 40px, 1000vh); */
     padding: 25px;
-    border-radius: 10px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
     /* font-family: sans-serif; */
     margin-top: 150px;
