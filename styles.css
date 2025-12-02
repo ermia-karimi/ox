@@ -1,0 +1,1197 @@
+* {
+    margin: 40;
+    padding: 0;
+}
+
+body {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* background-image: url("6D311466-9D2D-4040-B096-7DB0CF6EEB19.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+
+    /* background: #000000; */
+    font-family: sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    /* z-index: 0; */
+
+    /* font-family: v; */
+
+}
+
+/*background-color: rgba(0, 0, 0, 0.35);*/
+/*background-blend-mode: darken; */
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 130vw;
+    height: 130vh;
+    /*background: url("18.png") center/cover no-repeat;*/
+    background: linear-gradient(to bottom, #7A8B9C, #A0B5B8, #ECECEC);
+
+    /*background-color: rgba(0, 0, 0, 0.35);*/
+    /*background-blend-mode: darken;*/
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    filter: blur(45px);
+    /*filter: brightness(0.9);*/
+    z-index: -1;
+    transform-origin: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+@media (max-width: 1200px) {
+    body::before {
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+}
+
+
+
+/* @media (max-width: 1000px) {
+    body {
+        background-image: url("17.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+} */
+
+
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+body.rtl .nav {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hero-text {
+    text-align: right;
+}
+
+
+
+
+
+@font-face {
+
+    font-family: "v";
+    src: url('V.ttf') format('truetype');
+}
+
+
+
+/* .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0 ;
+  width: 120vw;   
+  height: 120vh;
+  inset: 0;
+  background-image: url('6D311466-9D2D-4040-B096-7DB0CF6EEB19.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transform-origin: center;
+}
+
+@media (max-width: 1200px) {
+  .bg {
+    transform: scale(0.8);
+  }
+} */
+
+
+
+.all {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+    /* background: #000000; */
+    position: relative;
+    /* width: 90%; */
+    /* height: 20px; */
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+
+
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+
+
+
+
+
+
+.all1 {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+    /* background: #000000; */
+    position: relative;
+    /* width: clamp(1vw, 40%, 100vw); */
+    width: 45%;
+    /* height: clamp(1vh, 210px, 1000vh); */
+    /* در صورت بهم خوردن ریسپانسیو کامند شود  */
+    padding: 25px;
+    border-radius: 10px;
+    /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
+    /* font-family: sans-serif; */
+    /* font-family: v; */
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    margin-top: 60px;
+    margin-bottom: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 8%;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+
+}
+
+
+.all11 {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48vw;
+    /* background: #000000; */
+    position: relative;
+    /* width: clamp(1vw, 90%, 100vw); */
+    width: 300px;
+
+    /* height: clamp(1vh, 10px, 1000vh); */
+    /* در صورت بهم خوردن ریسپانسیو کامند شود  */
+    padding: 25px;
+    border-radius: 10px;
+    /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
+    /* font-family: sans-serif; */
+    /* font-family: v; */
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+
+
+
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+
+}
+
+
+
+
+
+.all22 {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+    /* background: #000000; */
+    position: relative;
+    /* width: clamp(1vw, 90%, 100vw); */
+    height: clamp(1vh, 600px, 1000vh);
+    /* در صورت بهم خوردن ریسپانسیو کامند شود  */
+    padding: 25px;
+    border-radius: 10px;
+    /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
+    /* font-family: sans-serif; */
+    /* font-family: v; */
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding-left: 8%; */
+    /* padding-right: 5%; */
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+
+}
+
+
+
+
+.t1 {
+    display: flex;
+    justify-content: left;
+    /* background: #ffff; */
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(35px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.t11 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+
+    /* background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff; */
+
+    position: relative;
+    /* width: 90%; */
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
+
+    font-family: v;
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+
+}
+
+
+
+
+.t12 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    /* width: 80px; */
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.t13 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    /* width: 80px; */
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.t2 {
+    display: flex;
+    justify-content: left;
+    /* background: #ffff; */
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+
+.t3 {
+    display: flex;
+    justify-content: left;
+    /* background: #ffff; */
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+
+.t4 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.t5 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.t6 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.t7 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+
+.t8 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+
+.t9 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.t10 {
+    display: flex;
+    justify-content: left;
+    background: #ffff;
+    position: relative;
+    width: 75%;
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17);
+    /* font-family: sans-serif; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+
+    text-decoration: none;
+    color: #000000;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    /* فاصله کارت‌ها از هم */
+    color: white;
+    font-weight: 500;
+
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.a1 {
+    margin-top: -100px;
+    /* margin-bottom: 0px; */
+    margin-left: 0%;
+    margin-right: 100%;
+
+
+    text-decoration: none;
+    color: #ffff;
+    background-color: #ffff;
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.a2 {
+    margin-top: -100px;
+    /* margin-bottom: 0px; */
+    margin-left: 100%;
+    margin-right: 0%;
+
+
+    text-decoration: none;
+    color: #ffff;
+    background-color: #ffff;
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+.a11 {
+    /* margin-top: -100px; */
+    /* margin-bottom: 0px; */
+    /* margin-left: 0%; */
+    margin-right: 86%;
+
+
+    text-decoration: none;
+    color: #ffff;
+    /* background-color: #ffff; */
+    transition: background 0.3s ease-in-out;
+    font-family: sans-serif;
+    font-family: v;
+}
+
+
+
+#circle {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 46%;
+    margin-right: 50%; */
+    width: 100px;
+    height: 100px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    border-radius: 50%;
+    transform: scale(1);
+    /* transition: transform 5s ease; */
+    /* color: #000000; */
+}
+
+#circle1 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 46%;
+    margin-right: 50%; */
+    width: 100px;
+    height: 100px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    border-radius: 50%;
+    transform: scale(1);
+    /* transition: transform 5s ease; */
+}
+
+#circle2 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 46%;
+    margin-right: 50%; */
+    width: 100px;
+    height: 100px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    border-radius: 50%;
+    transform: scale(1);
+    /* transition: transform 5s ease; */
+}
+
+
+
+
+
+.startBtn {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn1 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn2 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn3 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn4 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn5 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+.startBtn6 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+
+.startBtn7 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+
+.startBtn8 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+
+.startBtn9 {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 47%;
+    margin-right: 50%; */
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: v;
+    cursor: pointer;
+}
+
+
+
+.b {
+    display: flex;
+    justify-content: center;
+    /* افقی وسط */
+    align-items: center;
+    /* background: #000000; */
+    position: relative;
+    /* width: 90%; */
+    /* height: clamp(1vh, 40px, 1000vh); */
+    padding: 25px;
+    border-radius: 10px;
+    /* box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.17); */
+    /* font-family: "V.ttf"; */
+    font-family: v;
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+    margin-left: 3%;
+    margin-right: 5%;
+
+    /* text-decoration: none;
+    color: #000000;
+    background-color: #ffff;
+    transition: background 0.3s ease-in-out;
+    font-family: v; */
+}
+
+.m1 {
+
+    display: flex;
+    /* width: 90%; */
+    /* background: #000000; */
+    font-family: sans-serif;
+    font-family: v;
+    margin-top: 60px;
+}
+
+.h33 {
+
+    color: #ffffff;
+    font-family: sans-serif;
+    font-family: v;
+
+}
+
+#clickChart {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart1 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart2 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart3 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart4 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart5 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart6 {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+#clickChart7 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#clickChart8 {
+    width: 80vw;
+    height: 80vh;
+}
+
+#clickChart9 {
+    width: 80vw;
+    height: 80vh;
+}
